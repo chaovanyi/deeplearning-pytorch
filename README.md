@@ -49,3 +49,8 @@ If you use conda init and want to deactivate it, run the following command
 ```
 $ conda config --set auto_activate_base False
 ```
+If there is a problem with permission, run the following command
+```
+$ sudo chmod 777 -R ~/anaconda3/
+$ sudo chmod 777 -R ~/.conda/
+```
