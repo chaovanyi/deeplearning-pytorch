@@ -24,13 +24,14 @@ Check your installation
 $ nvidia-smi
 ```
 ### Install CUDA 10.2
-```
-```
+
+
 Go [here](https://developer.nvidia.com/cuda-downloads), and download CUDA 10.2 and then choose, Linux >> x86_64 >> Ubuntu >> 18.04 >> deb(local). Then run the command that u see in the base installer.
 
 ### Install CUDNN
-```
+
 Go to this link to download CUDNN that compatible with CUDA 10.2 and then run the following command.
+
 ```
 $ tar -xzvf filename
 $ sudo cp cuda/include/cudnn*.h /usr/local/cuda-10.2/include
@@ -38,7 +39,10 @@ $ sudo cp cuda/lib64/libcudnn* /usr/local/cuda-10.2/lib64
 $ sudo chmod a+r /usr/local/cuda-10.2/include/cudnn*.h /usr/local/cuda-10.2/lib64/libcudnn*
 $ gedit ~/.bashrc
 ```
+
 paste this and save
+
+
 ```
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
 
