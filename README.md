@@ -26,7 +26,7 @@ $ nvidia-smi
 ### Install CUDA 10.2
 Go [here](https://developer.nvidia.com/cuda-downloads), and download CUDA 10.2 and then choose, Linux >> x86_64 >> Ubuntu >> 18.04 >> deb(local). Then run the command that u see in the base installer.
 ### Install CUDNN
-Go to this link to download CUDNN that compatible with CUDA 10.2 and then run the following command.
+Go to this [link](https://developer.nvidia.com/cudnn) to download CUDNN that compatible with CUDA 10.2 and then run the following command.
 ```
 $ tar -xzvf filename
 $ sudo cp cuda/include/cudnn*.h /usr/local/cuda-10.2/include
