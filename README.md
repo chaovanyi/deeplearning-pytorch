@@ -1,7 +1,7 @@
 # deeplearning-pytorch
 This repo is created to document my learning!
 ## Start up with ubuntu apt
-First, we have to set up the invironment. The following is what I used.
+First, we have to set up the environment. The following is what I used.
 - Operating system: Linux, apt: ubuntu 18.04
 - Graphic card: GTX 1080
 - Nvidia driver: can be the latest
@@ -54,11 +54,11 @@ If there is a problem with permission, run the following command
 $ sudo chmod 777 -R ~/anaconda3/
 $ sudo chmod 777 -R ~/.conda/
 ```
-Create deeplearning invironment in anaconda
+Create deeplearning environment in anaconda
 ```
 $ conda create --name deeplearning python=3.7
 ```
-Activate the invironment, install pytorch and other useful library
+Activate the environment, install pytorch and other useful library
 ```
 $ conda activate deeplearning
 $ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
