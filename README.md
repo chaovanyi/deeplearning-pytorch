@@ -14,6 +14,4 @@ Check your graphic card model.
 lshw -c video
 ```
 Go [here](https://www.nvidia.com/Download/index.aspx), input your information and download. Then
-```python
-chmod +x NVIDIA-Linux-x86_64-418.56.run
-```
+$ chmod +x NVIDIA-Linux-x86_64-418.56.run
