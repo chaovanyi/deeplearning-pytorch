@@ -54,3 +54,14 @@ If there is a problem with permission, run the following command
 $ sudo chmod 777 -R ~/anaconda3/
 $ sudo chmod 777 -R ~/.conda/
 ```
+Create deeplearning invironment in anaconda
+```
+$ conda create --name deeplearning python=3.7
+```
+Activate the invironment, install pytorch and other useful library
+```
+$ conda activate deeplearning
+$ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+$ pip install pandas numpy matplotlib opencv-python tqdm tb-nightly
+$ pip install -U scikit-learn
+```
