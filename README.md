@@ -8,3 +8,10 @@ First, we have to set up the invironment. The following is what I used.
 - CUDA: any version that compatiable with nvidia driver. (Recommend >= 10.1) I used 10.2
 - Cudnn: the latest update that compatible with CUDA 10.2
 
+# Install Nividia driver
+Check your graphic card model.
+```python
+s = "Python syntax highlighting"
+print s
+```
+Go [here](https://www.nvidia.com/Download/index.aspx), input your information and download.
