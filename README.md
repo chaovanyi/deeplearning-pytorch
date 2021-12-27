@@ -10,9 +10,12 @@ First, we have to set up the invironment. The following is what I used.
 
 # Install Nividia driver
 Check your graphic card model.
-```python
-lshw -c video
+```
+$ lshw -c video
 ```
 Go [here](https://www.nvidia.com/Download/index.aspx), input your information and download. Then
 ```
-$ chmod +x NVIDIA-Linux-x86_64-418.56.run
+$ chmod +x filename
+$ sudo ./filename
+$ sudo reboot now
+```
