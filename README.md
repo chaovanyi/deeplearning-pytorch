@@ -39,3 +39,13 @@ paste this and save
 export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda-10.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}"
 ```
+### Install anaconda
+Download anaconda from [here](https://www.anaconda.com/products/individual#linux) and the run the following command
+```
+$ sha256sum filename
+$ bash filename
+```
+If you use conda init and want to deactivate it, run the following command
+```
+$ conda config --set auto_activate_base False
+```
