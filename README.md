@@ -11,7 +11,6 @@ First, we have to set up the invironment. The following is what I used.
 # Install Nividia driver
 Check your graphic card model.
 ```python
-s = "Python syntax highlighting"
-print s
+lshw -c video
 ```
 Go [here](https://www.nvidia.com/Download/index.aspx), input your information and download.
