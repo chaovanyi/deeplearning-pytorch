@@ -59,3 +59,9 @@ $ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 $ pip install pandas numpy matplotlib opencv-python tqdm tb-nightly
 $ pip install -U scikit-learn
 ```
+### Install IDE
+For editor, I used Pycharm.
+```
+$ sudo snap install pycharm-community --classic
+```
+Run pycharm. After creating project, go to file => setting => on Project: 'name', select Python Interpreter => on setting logo, select Add... => Select conda environment => select Existing environment => (you should see deeplearning environment that we've just created)
