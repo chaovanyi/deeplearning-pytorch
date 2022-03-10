@@ -3,9 +3,9 @@ This repo is created to document my learning!
 ## Start up with ubuntu apt
 First, we have to set up the environment. The following is what I used.
 - Operating system: Linux, apt: ubuntu 18.04
-- Graphic card: GTX 1080
+- Graphic card: GTX 1080 (edit: now I use RTX A4500)
 - Nvidia driver: can be the latest
-- CUDA: any version that compatiable with nvidia driver. (Recommend >= 10.1) I used 10.2
+- CUDA: any version that compatiable with nvidia driver. (Recommend >= 10.1) I used 10.2 (edit: there are some problem when I used 10.2 with my new gpu. Now I used 11.4.4)
 - Cudnn: the latest update that compatible with CUDA 10.2
 
 ### Install Nividia driver
