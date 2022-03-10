@@ -9,10 +9,12 @@ First, we have to set up the environment. The following is what I used.
 - Cudnn: the latest update that compatible with CUDA 10.2
 
 ### Install Nividia driver
-Check your graphic card model.
-```
-$ lshw -c video
 
+```
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install nvidia-driver-470
+$ sudo reboot
 ```
 ### Install CUDA 10.2
 Go [here](https://developer.nvidia.com/cuda-downloads), and download CUDA 10.2 and then choose, Linux >> x86_64 >> Ubuntu >> 18.04 >> deb(local). Then run the command that u see in the base installer.
