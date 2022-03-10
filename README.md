@@ -14,7 +14,8 @@ First, we have to set up the environment. The following is what I used.
 $ sudo apt update
 $ sudo apt upgrade
 $ sudo apt install nvidia-driver-470
-$ sudo reboot
+$ sudo reboot now
+$ nvidia-smi
 ```
 ### Install CUDA 10.2
 Go [here](https://developer.nvidia.com/cuda-downloads), and download CUDA 10.2 and then choose, Linux >> x86_64 >> Ubuntu >> 18.04 >> deb(local). Then run the command that u see in the base installer.
