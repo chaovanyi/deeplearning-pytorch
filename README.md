@@ -80,3 +80,7 @@ if sys.platform.startswith("linux") and ci_and_not_headless:
 if sys.platform.startswith("linux") and ci_and_not_headless:
     os.environ.pop("QT_QPA_FONTDIR")
 ```
+Or using headless version
+```
+pip install opencv-python-headless
+```
