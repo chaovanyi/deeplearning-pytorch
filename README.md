@@ -66,6 +66,7 @@ $ sudo snap install pycharm-community --classic
 ```
 Run pycharm. After creating project, go to file => setting => on Project: 'name', select Python Interpreter => on setting logo, select Add... => Select conda environment => select Existing environment => (you should see deeplearning environment that we've just created)
 
+# Problems
 Fix cv2 and pyqt
 ```
 import os, sys
