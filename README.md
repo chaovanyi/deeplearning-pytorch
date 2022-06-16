@@ -65,3 +65,17 @@ For editor, I used Pycharm.
 $ sudo snap install pycharm-community --classic
 ```
 Run pycharm. After creating project, go to file => setting => on Project: 'name', select Python Interpreter => on setting logo, select Add... => Select conda environment => select Existing environment => (you should see deeplearning environment that we've just created)
+
+```
+import os, sys
+ci_build_and_not_headless = False
+try:
+    from cv2.version import ci_build, headless
+    ci_and_not_headless = ci_build and not headless
+except:
+    pass
+if sys.platform.startswith("linux") and ci_and_not_headless:
+    os.environ.pop("QT_QPA_PLATFORM_PLUGIN_PATH")
+if sys.platform.startswith("linux") and ci_and_not_headless:
+    os.environ.pop("QT_QPA_FONTDIR")
+```
